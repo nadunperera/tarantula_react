@@ -3,7 +3,15 @@ import React, { Component } from "react";
 class StoreSpec extends Component {
   state = {};
   render() {
-    return <h1>Store Spec Page</h1>;
+    return (
+      <div className="container">
+        <div className="row m-2">
+          <div className="col-sm">
+            <h1>Store Spec Page</h1>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 
